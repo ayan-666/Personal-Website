@@ -1,0 +1,172 @@
+/* Common Css */
+body{
+    font-family: 'Yellowtail', cursive;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+
+/* Top Bar CSS Start */
+.topbar-h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: rgb(185, 34, 110);
+}
+.top-section .half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.top-section .half-width img{
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.top-section{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+.top-section .link-button{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(185, 34, 110) ;
+    color: white;
+    padding:10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.top-section .link-button:hover{
+    background-color: white ;
+    color: rgb(185, 34, 110);
+}
+/* Top Part Css End */
+
+/* 2nd Part Css Start */
+.second_section{
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.second_section .half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 7%;
+}
+.second_section .half-width img{
+    width: 50%;
+    padding-left: 20%;
+}
+.second_section .link-button{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(185, 34, 110) ;
+    color: white;
+    padding:10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.second_section .link-button:hover{
+    background-color: white ;
+    color: rgb(185, 34, 110);
+}
+/* 2nd Part Css End */
+
+/* 3rd Part Css Start */
+.third_section{
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.third_section h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.third_section .latest_work ul li{
+    width: 30%;
+    margin-left: 10px;
+    float: left;
+    padding: 1%;
+    margin-top: 50px;
+}
+.third_section .latest_work ul li img{
+    width: 90%;
+}
+ /* 3rd Part Css End */
+
+ /* 4th Part Css Start */
+ .fourth_part{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+ }
+ .fourth_part h1{
+     text-align: center;
+     font-size: 40px;
+ }
+ .fourth_part .first_para {
+     font-weight: bold;
+     text-align: center;
+     margin-top: 3%;
+ }
+ .fourth_part p{
+    text-align: center;
+ }
+ .fourth_part .third_para{
+     margin-top: 4%;
+ }
+ .fourth_part .first_div{
+     height: 150px;
+     width: 40%;
+     background-color: rgb(196, 49, 151);
+     border-radius: 10px;
+     margin-left: 30%;
+     margin-top: 2%;
+     text-align: center;
+ }
+ .fourth_part .first_div p{
+     display: inline-block;
+     margin-top: 5%;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .fourth_part .first_div h3{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* 4th Part End */
+
+ /* 5th Part Css */
+ .fifth_section{
+     height: 300px;
+ }
+.fifth_section .partition{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(218, 210, 210);
+    float: left;
+    margin-left: 2.5%;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+}
+.fifth_section .partition h1{
+    margin-top: 30px;
+}
+/* 5th Part End */
+.footer{
+    
+    text-align: center;
+    color: gray;
+}
